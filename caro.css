@@ -1,0 +1,29 @@
+#game-board {
+    position: relative;
+    margin-top: 50px;
+
+}
+
+.board {
+    position: relative;
+    left: 35%;
+}
+
+.cell {
+    border: solid 2px white;
+    text-align: center;
+    font-size: 20pt;
+    cursor: pointer;
+    color: red;
+}
+
+button {
+    position: relative;
+    left: 45%;
+    top: 20px;
+}
+
+body {
+    background: rgb(17, 112, 210);
+    background: linear-gradient(90deg, rgba(17, 112, 210, 1) 0%, rgba(40, 4, 19, 1) 28%, rgba(65, 32, 52, 1) 42%, rgba(24, 85, 111, 1) 56%, rgba(23, 93, 119, 1) 65%, rgba(22, 97, 124, 1) 71%, rgba(60, 163, 15, 1) 100%, rgba(11, 165, 197, 1) 100%, rgba(21, 111, 135, 1) 100%, rgba(37, 49, 52, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
